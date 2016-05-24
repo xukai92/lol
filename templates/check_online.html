@@ -1,0 +1,28 @@
+{% extends "raw.html" %}
+{% block body %}
+  <h3>LOL Online Checker</h3>
+  {% include 'message.html' %}
+  {% include 'error.html' %}
+  <form action="{{ url_for('check_online') }}" method=post>
+    <div class="row">
+
+      <div class="input-field col s4">
+        <select id="region" name="region">
+          <option value="euw" selected>European West</option>
+          <option value="na">North American</option>
+          <option value="kr">Korean</option>
+        </select>
+        <label for="region">Region</label>
+      </div>
+
+      <div class="input-field col s8">
+        <input placeholder="" id="name" type=text name=name>
+        <label for="name">Summoner's name</label>
+      </div>
+    </div>
+    <div class="row">
+      <input class="btn right" type=submit value=Check>
+    </div>
+  </form>
+  {% include 'footer.html' %}
+{% endblock %}

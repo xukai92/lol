@@ -1,0 +1,243 @@
+{% extends "layout.html" %}
+
+{% block container %}
+
+<h4>Mastery > {{ param["summonerName"] }} > {{ param["championName"] }}</h4>
+
+{% include 'error.html' %}
+
+<div class="row">
+    <div class="col s4">
+        {#    row 1    #}
+        <div class="col s4">
+            <img {% if 6111 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6111.png" alt="6111" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6114 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6114.png" alt="6114" height=44 width=44">
+        </div>
+
+        {#    row 2    #}
+        <div class="col s4">
+            <img {% if 6121 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6121.png" alt="6121" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6122 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6122.png" alt="6122" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6123 not in param["masterySet"] %} class="gray-img" {% endif %}
+                src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6123.png" alt="6123" height=44 width=44">
+        </div>
+
+        {#    row 3    #}
+        <div class="col s4">
+            <img {% if 6131 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6131.png" alt="6131" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6134 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6134.png" alt="6134" height=44 width=44">
+        </div>
+
+        {#    row 4    #}
+        <div class="col s2"><img height=44 width="22"></div>
+        <div class="col s4">
+            <img {% if 6141 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6141.png" alt="6141" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6142 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6142.png" alt="6142" height=44 width=44">
+        </div>
+        <div class="col s2"><img height=44 width="22"></div>
+
+        {#    row 5    #}
+        <div class="col s4">
+            <img {% if 6151 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6151.png" alt="6151" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6154 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6154.png" alt="6154" height=44 width=44">
+        </div>
+
+        {#    row 6    #}
+        <div class="col s4">
+            <img {% if 6161 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6161.png" alt="6161" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6162 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6162.png" alt="6162" height=44 width=44">
+        </div>
+        <div class="col s2">
+            <img {% if 6164 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6164.png" alt="6164" height=44 width=44">
+        </div>
+
+        {#    bottom    #}
+        <div class="col s12">FEROCITY</div>
+    </div>
+
+    <div class="col s4">
+        {#    row 1    #}
+        <div class="col s4">
+            <img {% if 6311 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6311.png" alt="6311" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6312 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6312.png" alt="6312" height=44 width=44">
+        </div>
+
+        {#    row 2    #}
+        <div class="col s4">
+            <img {% if 6321 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6321.png" alt="6321" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6322 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6322.png" alt="6322" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6323 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6323.png" alt="6323" height=44 width=44">
+        </div>
+
+        {#    row 3    #}
+        <div class="col s4">
+            <img {% if 6331 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6331.png" alt="6331" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6332 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6332.png" alt="6332" height=44 width=44">
+        </div>
+
+        {#    row 4    #}
+        <div class="col s2"><img height=44 width="22"></div>
+        <div class="col s4">
+            <img {% if 6342 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6342.png" alt="6342" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6343 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6343.png" alt="6343" height=44 width=44">
+        </div>
+        <div class="col s2"><img height=44 width="22"></div>
+
+        {#    row 5    #}
+        <div class="col s4">
+            <img {% if 6351 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6351.png" alt="6351" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6352 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6352.png" alt="6352" height=44 width=44">
+        </div>
+
+        {#    row 6    #}
+        <div class="col s4">
+            <img {% if 6361 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6361.png" alt="6361" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6362 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6362.png" alt="6362" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6363 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6363.png" alt="6363" height=44 width=44">
+        </div>
+
+        {#    bottom    #}
+        <div class="col s12">CUNNING</div>
+    </div>
+
+    <div class="col s4">
+        {#    row 1    #}
+        <div class="col s4">
+            <img {% if 6211 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6211.png" alt="6211" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6212 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6212.png" alt="6212" height=44 width=44">
+        </div>
+
+        {#    row 2    #}
+        <div class="col s2"><img height=44 width="22"></div>
+        <div class="col s4">
+            <img {% if 6221 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6221.png" alt="6221" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6223 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6223.png" alt="6223" height=44 width=44">
+        </div>
+        <div class="col s2"><img height=44 width="22"></div>
+
+        {#    row 3    #}
+        <div class="col s4">
+            <img {% if 6231 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6231.png" alt="6331" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6232 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6232.png" alt="6232" height=44 width=44">
+        </div>
+
+        {#    row 4    #}
+        <div class="col s2"><img height=44 width="22"></div>
+        <div class="col s4">
+            <img {% if 6241 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6241.png" alt="6241" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6242 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6242.png" alt="6242" height=44 width=44">
+        </div>
+        <div class="col s2"><img height=44 width="22"></div>
+
+        {#    row 5    #}
+        <div class="col s4">
+            <img {% if 6251 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6251.png" alt="6251" height=44 width=44">
+        </div>
+        <div class="col s4"><img height=44 width=44"></div>
+        <div class="col s4">
+            <img {% if 6252 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6252.png" alt="6252" height=44 width=44">
+        </div>
+
+        {#    row 6    #}
+        <div class="col s4">
+            <img {% if 6261 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6261.png" alt="6261" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6262 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6262.png" alt="6262" height=44 width=44">
+        </div>
+        <div class="col s4">
+            <img {% if 6263 not in param["masterySet"] %} class="gray-img" {% endif %}
+                    src="http://ddragon.leagueoflegends.com/cdn/6.9.1/img/mastery/6263.png" alt="6263" height=44 width=44">
+        </div>
+
+        {#    bottom    #}
+        <div class="col s12">RESOLVE</div>
+    </div>
+</div>
+
+{% endblock %}

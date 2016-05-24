@@ -1,0 +1,22 @@
+body			{ width: 100%; max-width: 700px; padding: 0.8em; margin: auto; }
+
+.message		{ color: white; text-align: center; }
+
+.to-right		{ text-align: right; }
+
+span.badge.love {
+  font-weight: 300;
+  font-size: 0.8rem;
+  color: #fff;
+  background-color: #26a69a;
+  border-radius: 2px; }
+span.badge.love:after {
+  content: " love"; }
+
+.gray-img {
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
