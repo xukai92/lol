@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+
+{% block container %}
+
+<h3>Toolbox</h3>
+
+{% include 'error.html' %}
+
+<ul class="collapsible popout" data-collapsible="accordion">
+  <li>
+    <div class="collapsible-header active"><i class="material-icons">equalizer</i>Mastery Brain</div>
+    <div class="collapsible-body"><p>Look up your favourite player's masteries.<a class="right btn-floating btn waves-effect waves-light red" href="/search_mastery"><i class="material-icons">play_arrow</i></a></p></div>
+  </li>
+  <li>
+    <div class="collapsible-header"><i class="material-icons">settings_input_antenna</i>Check Online</div>
+    <div class="collapsible-body"><p>Check if your friends are online.<a class="right btn-floating btn waves-effect waves-light red" href="/check_online"><i class="material-icons">play_arrow</i></a></p></div>
+  </li>
+</ul>
+
+{% endblock %}

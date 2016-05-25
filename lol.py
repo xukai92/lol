@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def root():
-    return redirect(url_for('search_mastery'))
+def index():
+    return render_template('index.html')
 
 
 @app.route('/search_mastery', methods=['GET', 'POST'])
